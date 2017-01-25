@@ -46,7 +46,7 @@ class Cohort < Database::Model
 
   private
 
-  def insert!
+  def insert! < Student
     self[:created_at] = DateTime.now
     self[:updated_at] = DateTime.now
 
